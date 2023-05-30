@@ -1,0 +1,341 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .sect1{
+        background-image: url(./img/back.png);
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .div_sect1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        text-align: center;
+        margin-top: 2%;
+        gap: 25px;
+    }
+
+
+    .div_sect1 h1{
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    .div_sect1 p{
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .subtitle{
+        font-size: 2.2rem;
+        color: white;
+        font-weight: 900;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 500px;
+        gap: 20px;
+        background-color: white;
+        border-radius: 28px;
+        margin-bottom: 10%;
+    }
+
+    .form h5{
+        font-size: 1.5rem;
+        color: #2e2f30;
+    }
+
+    .form p{
+        color: #91999d;
+    }
+    label {
+        position: absolute;
+        left: -9999px;
+    }
+
+    input{
+        width: 75%;
+        height: 12%;
+        font-size: 1rem;
+        padding-left: 2% ;
+    }
+
+    .btn{
+        background-color: rgb(255,176,0);
+        border-color: transparent;
+        color: white ;
+        font-size: 1.5rem;
+        border-radius: 50px;
+        cursor: pointer;
+        font-weight: 900;
+        width: 75%;
+    }
+
+    .btn:hover{
+        background-color:  rgb(201, 139, 7) ;
+    }
+
+    .sect2{
+        background-image: url(./img/aves.png);
+        background-position: right;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+        align-items: center;
+    }
+
+    .div_sect2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        height: 700px;
+        text-align: center;
+        gap: 40px;
+        margin-top: 2%;
+    }
+
+    .div_sect2 h1{
+        font-size: 2.1rem;
+        color: #2f2f2f;
+    }
+
+    .div_sect2 p{
+        font-size: 1.5rem;
+        color: #2f2f2f;
+    }
+
+    .btns{
+        width: 50%;
+        height: 10%;
+        background-color: rgb(255,176,0);
+        font-size: 1.5rem;
+        font-weight: 900;
+        border-color: transparent;
+        color: white ;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 5px 0 rgb(201, 139, 7);
+    }
+
+
+    .btns:hover{
+        background-color:  rgb(201, 139, 7) ;
+    }
+
+    .sect3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 800px;
+        gap: 25px;
+        color: #2f2f2f;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        width: 60%;
+    }
+
+    .container h1{
+        font-size: 2.2rem;
+        margin-top: 4%;
+    }
+
+    .boxs{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 200px;
+        padding: 2%;    
+        background-color: #EBE9E9;
+        border-radius: 25px;
+    }
+
+    .orange600{
+        width: 44px;
+        color: orange;
+    }
+
+    .material-icons.md-50 { font-size: 50px; }
+
+    .boxs div{
+        background-color: white;
+        border-radius: 15px;
+        width: 70px;
+        height: 55px;
+        text-align: center;
+    }
+
+    .boxs h5{
+        font-size: .9rem;
+        font-weight: 900;
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+
+    .boxs p{
+        font-size: 1.3rem;
+    }
+
+    .sect4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        color: white;
+        background-color: rgb(3, 3, 3);
+    }
+    .sect4 div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        gap: 25px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .sect4 h1{
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .sect5{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .carousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:50%;
+        margin-bottom: 50px;
+        border: 5px solid orange;
+    }
+
+    
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(3, 3, 3);
+        color: white;
+        font-size: .7rem;
+        height: 100px;
+    }
+
+    @media (max-width:792px){
+
+        .div_sect1, .div_sect2, .div_sect3{
+            width: 95%;
+            margin-top: 5%;
+        }
+
+        .sect2, .div_sect2{
+            height: 1200px;
+        }
+        .div_sect1 h1{
+            font-size: 26px;
+        }
+        
+        iframe{
+            width: 90%;
+        }
+
+        .div_sect1 h2{
+            font-size: 24px;
+            font-weight: 900;
+        }
+
+        .div_sect1 p{
+            font-size: 20px;
+        }
+
+        .form{
+            width: 95%;
+            height: 550px;
+        }
+
+        .btn{
+            width: 90%;
+            font-size: 1rem;
+        }
+
+        input{
+            width: 90%;
+            height: 10%;
+        }
+
+        .container{
+            width: 95%;
+            height: 1500px;
+            flex-direction: column;
+            text-align: center;
+            justify-content: start;
+        }
+
+        .sect3{
+            height: 1200px;
+        }
+
+        .boxs{
+            width: 90%;
+        }
+
+        .btns{
+            width: 90%;
+            height: 4%;
+            font-size: 1rem;
+        }
+
+        .container h1{
+            font-size: 2rem;
+            margin-top: 5%;
+        }
+
+        .sect4{
+            height: 1500px;
+        }
+
+        .sect4 div{
+            width: 95%;
+            height: 1400px;
+        }
+
+        .sect4 h1{
+            font-size: 1.5rem;
+        }
+
+        .carousel{
+            width: 90%;
+        }
+
+        footer{
+            height: 80px;
+            font-size: .5rem;
+        }
+    }
